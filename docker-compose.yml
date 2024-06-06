@@ -1,7 +1,7 @@
 services:
   dashboard:
     container_name: dashboard
-    image: dardonacci/dashboard:latest
+    image: kryptosquid/dashboard:latest
     ports:
       - "8501:8501"
     environment:
